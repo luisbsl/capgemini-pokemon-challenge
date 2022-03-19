@@ -29,3 +29,7 @@ foo@bar:~$ ./mvnw package && java -jar target/challenge-0.0.1-SNAPSHOT.jar
 foo@bar:~$ ./mvnw package && docker build -t capgemini/pokemon-challenge .
 foo@bar:~$ docker run -p 8080:8080 capgemini/pokemon-challenge 
 ```
+
+## Realizando requisição no Browser passando a cidade
+
+http://localhost:8080/pokemons?city=canoas
