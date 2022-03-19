@@ -1,0 +1,8 @@
+openweathermap:
+  url: https://api.openweathermap.org/data/2.5/weather
+  city: '?q=%s'
+  appid:
+  units: metric
+
+pokeapi:
+  url: https://pokeapi.co/api/v2/type/
